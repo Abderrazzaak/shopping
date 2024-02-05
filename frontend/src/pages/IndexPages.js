@@ -6,6 +6,7 @@ import  Layout  from '../components/layout/Layout';
 import  Home  from './home/Home';
 import  Contact  from './contact/Contact';
 import  About  from './about/About';
+import Footer from "../components/footer/Footer";
 
 function IndexPages() {
   return (
@@ -17,7 +18,7 @@ function IndexPages() {
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
-
+          <Route path="/Footer" element={<Footer/>} />
         </Route>
 
       </Routes>
