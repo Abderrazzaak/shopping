@@ -19,6 +19,8 @@ dbConnect();
 // const categoryRouter = require("./routes/category");
 // const product = require("./routes/product");
 const message = require("./routes/message");
+const category = require("./routes/category");
+const product = require("./routes/product")
 // const order = require("./routes/order");
 
 
@@ -26,6 +28,8 @@ const message = require("./routes/message");
 // app.use("/api/categories", categoryRouter);
 // app.use("/api/product", product);
 app.use("/api/message", message);
+app.use("/api/category", category);
+app.use("/api/product", product);
 // app.use("/api/order", order);
 
 app.listen(process.env.PORT, () =>
