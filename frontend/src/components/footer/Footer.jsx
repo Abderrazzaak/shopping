@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className="container my-5">
+    <div className=" my-5">
   <footer className="text-center text-lg-start text-dark" style={{backgroundColor: '#ECEFF1'}}>
     <section className="d-flex justify-content-between p-4 text-white" style={{backgroundColor: '#21D192'}}>
       <div className="me-5">
